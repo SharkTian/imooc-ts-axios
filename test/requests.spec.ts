@@ -1,7 +1,7 @@
 import axios, { AxiosResponse, AxiosError } from "../src/index";
 import { getAjaxRequest } from "./helper";
 
-describe("requests", () => {
+describe("requests", () => { 
   beforeEach(() => {
     jasmine.Ajax.install();
   });
